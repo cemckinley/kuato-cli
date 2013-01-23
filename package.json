@@ -1,0 +1,30 @@
+{
+  "name": "kuato",
+  "description": "Simple static web site scaffolder built on grunt.js",
+  "version": "0.1.0",
+  "author": "Cara McKinley",
+  "homepage": "http://github.com/cemckinley/kuato",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cemckinley/kuato-cli.git"
+  },
+  "bugs": {
+    "url": "http://github.com/cemckinley/kuato/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/cemckinley/kuato/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bin": {
+    "grunt": "bin/kuato"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "grunt-cli": "~0.1.6"
+  }
+}

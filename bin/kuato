@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# TODO: Check to see if Grunt is installed. Install if necessary.
+
+echo -n "Project directory name: "
+read DIRECTORY_NAME
+
+echo -n "Do you want to initialize a new git repo? (y/n): "
+read GIT_ON
+
+git clone --depth=1 https://github.com/cemckinley/kuato.git $DIRECTORY_NAME
+cd $DIRECTORY_NAME
+
+npm install grunt
+npm install grunt-compass
+npm install grunt-contrib-watch --save-dev
+npm install grunt-contrib-copy
+
+rm -rf .git     # Remove old bindings since this is boilerplate
+
+echo $DIRECTORY_NAME > README.md
+
+if [ "$GIT_ON" == "y" ]; then
+    git init
+else
+    rm .gitignore
+fi
+
+echo -e "\n\nSTART THE REACTOR\0041\n\nYour new project is ready\0041\n"
