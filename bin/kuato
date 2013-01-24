@@ -11,7 +11,6 @@ read GIT_ON
 git clone --depth=1 https://github.com/cemckinley/kuato.git $DIRECTORY_NAME
 cd $DIRECTORY_NAME
 
-npm install grunt
 npm install grunt-compass
 npm install grunt-contrib-watch --save-dev
 npm install grunt-contrib-copy

@@ -9,7 +9,7 @@
     "url": "git://github.com/cemckinley/kuato-cli.git"
   },
   "bugs": {
-    "url": "http://github.com/cemckinley/kuato/issues"
+    "url": "http://github.com/cemckinley/kuato-cli/issues"
   },
   "licenses": [
     {
@@ -18,13 +18,13 @@
     }
   ],
   "bin": {
-    "grunt": "bin/kuato"
+    "kuato": "bin/kuato"
   },
   "engines": {
     "node": ">= 0.8.0"
   },
   "preferGlobal": true,
-  "dependencies": {
-    "grunt-cli": "~0.1.6"
+  "scripts": {
+    "preinstall": "npm install -g grunt@\"~0.3.17\""
   }
 }
