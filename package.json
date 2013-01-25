@@ -23,8 +23,5 @@
   "engines": {
     "node": ">= 0.8.0"
   },
-  "preferGlobal": true,
-  "scripts": {
-    "preinstall": "npm install -g grunt@\"~0.3.17\""
-  }
+  "preferGlobal": true
 }
