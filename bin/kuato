@@ -2,6 +2,20 @@
 
 # TODO: Check to see if Grunt is installed. Install if necessary.
 
+echo "
+      ___           ___           ___                         ___     
+     /|  |         /\  \         /\  \                       /\  \    
+    |:|  |         \:\  \       /::\  \         ___         /::\  \   
+    |:|  |          \:\  \     /:/\:\  \       /\__\       /:/\:\  \  
+  __|:|  |      ___  \:\  \   /:/ /::\  \     /:/  /      /:/  \:\  \ 
+ /\ |:|__|____ /\  \  \:\__\ /:/_/:/\:\__\   /:/__/      /:/__/ \:\__\\
+ \:\/:::::/__/ \:\  \ /:/  / \:\/:/  \/__/  /::\  \      \:\  \ /:/  /
+  \::/~~/~      \:\  /:/  /   \::/__/      /:/\:\  \      \:\  /:/  / 
+   \:\~~\        \:\/:/  /     \:\  \      \/__\:\  \      \:\/:/  /  
+    \:\__\        \::/  /       \:\__\          \:\__\      \::/  /   
+     \/__/         \/__/         \/__/           \/__/       \/__/    
+"
+
 echo -n "Project directory name: "
 read DIRECTORY_NAME
 
@@ -11,6 +25,7 @@ read GIT_ON
 git clone --depth=1 https://github.com/cemckinley/kuato.git $DIRECTORY_NAME
 cd $DIRECTORY_NAME
 
+npm install grunt
 npm install grunt-compass
 npm install grunt-contrib-watch --save-dev
 npm install grunt-contrib-copy
