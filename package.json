@@ -1,7 +1,7 @@
 {
   "name": "kuato",
   "description": "Simple static web site scaffolder built on grunt.js",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "author": "Cara McKinley",
   "homepage": "http://github.com/cemckinley/kuato",
   "repository": {
