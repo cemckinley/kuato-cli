@@ -25,14 +25,14 @@ git clone https://github.com/cemckinley/kuato.git --depth=1 $DIRECTORY_NAME
 cd $DIRECTORY_NAME
 
 npm install grunt@~0.4
-npm install grunt-contrib-concat@~0.1.2
-npm install grunt-contrib-uglify@~0.1.1
-npm install grunt-contrib-jshint
-npm install grunt-contrib-qunit@~0.1.1
-npm install grunt-contrib-connect
-npm install grunt-compass
-npm install grunt-contrib-watch
-npm install grunt-contrib-copy@~0.4.0
+npm install grunt-contrib-concat@~0.1.2 --save-dev
+npm install grunt-contrib-uglify@~0.1.1 --save-dev
+npm install grunt-contrib-jshint --save-dev
+npm install grunt-contrib-qunit@~0.1.1 --save-dev
+npm install grunt-contrib-connect --save-dev
+npm install grunt-compass --save-dev
+npm install grunt-contrib-watch --save-dev
+npm install grunt-contrib-copy@~0.4.0 --save-dev
 
 rm -rf .git     # Remove old bindings since this is boilerplate
 
