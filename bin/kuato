@@ -21,7 +21,7 @@ read DIRECTORY_NAME
 echo -n "Do you want to initialize a new git repo? (y/n): "
 read GIT_ON
 
-git clone -b grunt0.4 https://github.com/cemckinley/kuato.git --depth=1 $DIRECTORY_NAME
+git clone https://github.com/cemckinley/kuato.git --depth=1 $DIRECTORY_NAME
 cd $DIRECTORY_NAME
 
 npm install grunt@~0.4
