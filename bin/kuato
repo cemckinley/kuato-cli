@@ -31,7 +31,7 @@ npm install grunt-contrib-jshint --save-dev
 npm install grunt-contrib-qunit@~0.1.1 --save-dev
 npm install grunt-contrib-connect --save-dev
 npm install grunt-contrib-livereload --save-dev
-npm install grunt-compass --save-dev
+npm install grunt-contrib-compass --save-dev
 npm install grunt-regarde --save-dev
 npm install grunt-contrib-copy@~0.4.0 --save-dev
 
